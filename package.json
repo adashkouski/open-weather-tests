@@ -1,6 +1,26 @@
 {
   "dependencies": {
     "cypress": "^12.6.0",
+    "cypress-dotenv": "^2.0.0",
+    "dotenv": "^16.0.3",
     "init": "^0.1.2"
-  }
+  },
+  "name": "open-weather-tests",
+  "description": "",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adashkouski/open-weather-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adashkouski/open-weather-tests/issues"
+  },
+  "homepage": "https://github.com/adashkouski/open-weather-tests#readme"
 }
